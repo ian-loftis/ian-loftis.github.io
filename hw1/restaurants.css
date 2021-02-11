@@ -14,10 +14,10 @@ div.page_header {
     color: navy;
     font-size: 48px;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 div.top_bar {
-    padding-top: 20px;
     background-color: palegoldenrod;
     font-size: 22px;
 }
@@ -41,7 +41,7 @@ div.top_bar {
     padding: 5px 8px;
     border: 2px double black;
     float: right;
-    margin-right: 50px;
+    margin-right: 100px;
 
 }
 
@@ -57,8 +57,10 @@ div.top_bar {
 .cuisines_header {
     text-align: center;
     font-size: 36px;
-    color:navy;
+    color:violet;
     text-decoration:underline;
+    text-decoration-style: double;
+    font-family: Comic Sans MS;
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -70,6 +72,7 @@ div.top_bar {
     display: inline-block;
     vertical-align: top;
     align-self: right;
+    padding-top: 100px;
 }
 .cuisine_description#italian {
     text-align: left;
