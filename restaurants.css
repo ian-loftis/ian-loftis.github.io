@@ -6,13 +6,13 @@ body {
     width:900px;
     max-width: 900px;
     margin: auto;
+    cursor: url("resources/pogchamp-twitch-own3d.png"), auto;
 }
 
 div.page_header {
     color: navy;
     font-size: 48px;
     text-align: center;
-    margin-left: 75px;
 }
 
 div.top_bar {
@@ -25,14 +25,18 @@ div.top_bar {
     height:300px;
     width:900px;
     background-attachment: fixed;
-    background-position: cover;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    margin-left: 75px;
 }
 
 .cuisine_row{
-    padding-left:75px;
+    width:900px;
+    max-width: 900px;
+    height:300px;
+    max-height:300px;
     padding-top: 50px;
+
 }
 
 .cuisines_header {
@@ -79,6 +83,18 @@ div.top_bar {
 .cuisine_image img {
     padding: 8px;
     width:400px;
+}
+.cuisine_iamge#italian {
+    float: left;
+}
+.cuisine_image#indian {
+    float: right;
+}
+.cuisine_image#japanese {
+    float: left;
+}
+.cuisine_image#desserts {
+    float: right;
 }
 .cuisine_image#italian img{
     background-color: palevioletred;
