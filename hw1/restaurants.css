@@ -1,5 +1,6 @@
 body {
     align-items: center;
+    overflow-x: hidden
 }
 
 .content {
@@ -16,8 +17,12 @@ div.page_header {
 }
 
 div.top_bar {
+    padding-top: 20px;
     background-color: palegoldenrod;
-    font-size: 24px;
+    font-size: 22px;
+}
+.top_bar a {
+    text-decoration: none;
 }
 
 .restaurant_image {
@@ -25,9 +30,19 @@ div.top_bar {
     height:300px;
     width:900px;
     background-attachment: fixed;
-    background-position: 440px, 100px;
-    background-size: 100%;
+    background-position: top;
+    background-size: 915px, 515px;
     background-repeat: no-repeat;
+    color: lightgoldenrodyellow;
+    font-size: 48px;
+    text-align: center;
+}
+.restaurant_image button {
+    padding: 5px 8px;
+    border: 2px double black;
+    float: right;
+    margin-right: 50px;
+
 }
 
 .cuisine_row{
