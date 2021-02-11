@@ -52,6 +52,16 @@ div.top_bar {
     float: right;
     margin-right: 100px;
 }
+.restaurant_image button:disabled {
+    padding: 10px;
+    border-style: double;
+    border-width: 5px;
+    float: right;
+    margin-right: 100px;
+    background: white;
+    color:black;
+    border-color: black;
+}
 
 .cuisines {
     background-color:white;
