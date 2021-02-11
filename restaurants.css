@@ -1,0 +1,98 @@
+body {
+    align-items: center;
+}
+
+.content {
+    width:900px;
+    max-width: 900px;
+    margin: auto;
+}
+
+div.page_header {
+    color: navy;
+    font-size: 48px;
+    text-align: center;
+    margin-left: 75px;
+}
+
+div.top_bar {
+    background-color: palegoldenrod;
+    font-size: 24px;
+}
+
+.restaurant_image {
+    background-image: url("resources/restaraunt.jpg");
+    height:300px;
+    width:900px;
+    background-attachment: fixed;
+    background-position: cover;
+    background-repeat: no-repeat;
+    margin-left: 75px;
+}
+
+.cuisine_row{
+    padding-left:75px;
+    padding-top: 50px;
+}
+
+.cuisines_header {
+    text-align: center;
+    font-size: 36px;
+    color:navy;
+    text-decoration:underline;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.cuisine_description {
+    width:300px;
+    height:250px;
+    max-width: 300px;
+    max-height: 250px;
+    display: inline-block;
+    vertical-align: top;
+    align-self: right;
+}
+.cuisine_description#italian {
+    text-align: left;
+    float: right;
+}
+.cuisine_description#indian {
+    text-align: left;
+    float: left;
+}
+.cuisine_description#japanese {
+    text-align: left;
+    float: right;
+}
+.cuisine_description#desserts {
+    text-align: left;
+    float: left;
+}
+.cuisine_description_header {
+    color: navy;
+}
+
+.cuisine_image {
+    display:inline-block;
+    width: 450px;
+}
+.cuisine_image img {
+    padding: 8px;
+    width:400px;
+}
+.cuisine_image#italian img{
+    background-color: palevioletred;
+    float: left;
+}
+.cuisine_image#indian img{
+    background-color: paleturquoise;
+    float: right;
+}
+.cuisine_image#japanese img{
+    background-color: palevioletred;
+    float: left;
+}
+.cuisine_image#desserts img{
+    background-color: paleturquoise;
+    float: right;
+}
